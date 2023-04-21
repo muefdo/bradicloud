@@ -1,0 +1,25 @@
+.Container{
+    color: rgb(212, 218, 218);
+    background-color: #7994B8;
+    width: auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer{
+    display: grid;
+    padding: 10px;
+    font-size: xx-large;
+}
+.mainHeader{
+    
+}
+.description{
+    font-size: large;
+}
+.imageFirst{
+    padding-bottom: 350px;
+
+}

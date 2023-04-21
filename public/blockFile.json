@@ -1,0 +1,22 @@
+[
+    {
+        "headerName": "Deneme Name",
+        "description": " benim adım name",
+        "imageSrc": "/mockup.png",
+        "theme": "#1fc8c9"
+    },
+    {
+        "headerName": "Deneme2 Name",
+        "description": " benim ssadım name",
+        "imageSrc": "/mockup2.png",
+        "theme": "#c9201f"
+    }, 
+    {
+        "headerName": "Deneme3 Name",
+        "description": " benim adım name",
+        "imageSrc": "/mockup.png",
+        "theme": "#751fc9",
+        "bottom": "0px"
+    }
+   
+]
