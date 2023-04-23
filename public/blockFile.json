@@ -1,22 +1,69 @@
 [
     {
-        "headerName": "Deneme Name",
-        "description": " benim adım name",
-        "imageSrc": "/mockup.png",
-        "theme": "#1fc8c9"
-    },
+        "headerName": "Traino.pro",
+        "description": "Fitness severler için kolay antrenman programlar ve Ünlü PT'lerden antrenman programları. ",
+        "imageSrc": "/run.png",
+        "themeColor": "#f5f4dc",
+        "paddingBottom": "0px",
+        "descriptionColor": "#c75228",
+        "headerColor": "black",
+        "infoLink": "",
+        "condition": 3
+     },
     {
-        "headerName": "Deneme2 Name",
-        "description": " benim ssadım name",
-        "imageSrc": "/mockup2.png",
-        "theme": "#c9201f"
+        "headerName": "CryptoHype.cloud",
+        "description": "Kullanıcı dostu arayüzü ile anlık kripto verilerini gösteren kripto borsası.",
+        "imageSrc": "/mockupC.png",
+        "themeColor": "#f5a88e  ",
+        "paddingBottom": "0px",
+        "descriptionColor": "#73382d",
+        "headerColor": "#fff4f2",
+        "infoLink": "",
+        "condition": 4
     }, 
     {
-        "headerName": "Deneme3 Name",
-        "description": " benim adım name",
+        "headerName": "isita.cloud",
+        "description": "is it a cloud kolay kullanımı ve anlık verileriyle bir hava durumu takip sitesidir.",
         "imageSrc": "/mockup.png",
-        "theme": "#751fc9",
-        "bottom": "0px"
+        "themeColor": "#8e97f5",
+        "paddingBottom": "0px",
+        "descriptionColor": "#7728d1",
+        "headerColor": "#301069",
+        "infoLink": "",
+        "condition": 4 
+    }, 
+    {
+        "headerName": "Ders Dostum",
+        "description": "Dersdostum.com; Hedef, Sınıf, Bölüm, Alan olarak filtrelenelebilen ders çalışma arkadaşı bulma sitesi.2023 Ocakta 6500+ kullanıcıya sahipken kapatıldı",
+        "imageSrc": "/mockup.png",
+        "themeColor": "#e8cf7b",
+        "paddingBottom": "0px",
+        "descriptionColor": "#917216",
+        "headerColor": "#f5edd5",
+        "infoLink": "",
+        "condition": 2 
+    },
+    {
+        "headerName": "DersArkadasi.com",
+        "description": "Beraber ders çalışmak isteyen öğrencileri uygun telegram gruplarında birleştirmeyi hedefleyen proje.",
+        "imageSrc": "/mockupD.png",
+        "themeColor": "#50f2e5",
+        "paddingBottom": "0px",
+        "descriptionColor": "#0c5753",
+        "headerColor": "#0f2625",
+        "infoLink": "",
+        "condition": 1 
+    },
+    {
+        "headerName": "SendCrypto",
+        "description": "SendCrypto.online Basit kullanımlı arayüzü ve blockchain teknolojisi ile kripto paralarnızı tek tıkla yollayın.",
+        "imageSrc": "/mockB.png",
+        "themeColor": "#c77373",
+        "paddingBottom": "0px",
+        "descriptionColor": "#571f1f",
+        "headerColor": "#f7e4e4",
+        "infoLink": "",
+        "condition": 5 
     }
    
 ]

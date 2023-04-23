@@ -6,10 +6,40 @@
 
 }
 
-
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family:Helvetica;
+  font-family: Helvetica;
+}
+
+.header {
+  background-color: #212672;
+  padding-left: 50px;
+  height: 50px;
+}
+
+.footer {
+  background-color: rgb(214, 221, 221);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.footerLinks{
+  padding-right: 650px;
+  padding-left: 150px;
+  display: flex;
+
+}
+.Github{
+  padding-right: 20px;
+}
+.footerGrid {
+  padding-left: 50px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }

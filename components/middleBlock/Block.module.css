@@ -1,7 +1,6 @@
 .Container{
     color: rgb(212, 218, 218);
     background-color: #7994B8;
-    width: auto;
     height: 500px;
     display: flex;
     align-items: center;
@@ -12,14 +11,89 @@
     display: grid;
     padding: 10px;
     font-size: xx-large;
+    width: 550px;
 }
 .mainHeader{
+    
     
 }
 .description{
     font-size: large;
+    width: 300px;
+    font-weight: 600;
 }
 .imageFirst{
-    padding-bottom: 350px;
+    
 
+}
+.stateActive{
+    background-color: #13bb37 ;
+    font-size: 16px;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #10141a;
+}
+.stateActive{
+    background-color: #13bb37 ;
+    font-size: 16px;
+    font-weight: 600;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e6e7e9;
+}
+.stateDeactive{
+    background-color: #bb1313 ;
+    font-size: 16px;
+    width: 70px;
+    height: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+}
+.stateComing{
+    background-color: #f78f07 ;
+    font-size: 16px;
+    font-weight: 600;
+    width: 110px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+}
+.stateBasic{
+    background-color: #0b677e ;
+    font-size: 16px;
+    font-weight: 600;
+    width: 195px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+}
+.stateWait{
+    background-color: #7e0b6b ;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+}
+.blockLink{
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
 }

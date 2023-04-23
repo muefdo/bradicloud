@@ -10,9 +10,12 @@ function Blocks ({blockFile})  {
                 headerName={block.headerName}
                 description={block.description}
                 imageSrc={block.imageSrc}
-                theme={block.theme}
-                bottom={block.bottom}
-
+                themeColor={block.themeColor}
+                paddingBottom={block.paddingBottom}
+                headerColor={block.headerColor}
+                descriptionColor={block.descriptionColor}
+                infoLink={block.infoLink}
+                condition={block.condition}
             
             />
         )
