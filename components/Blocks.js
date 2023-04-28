@@ -1,6 +1,7 @@
 import React from 'react'
 import Block from './middleBlock'
 
+
 function Blocks ({blockFile})  {
   return (
     <>
@@ -11,13 +12,15 @@ function Blocks ({blockFile})  {
                 description={block.description}
                 imageSrc={block.imageSrc}
                 themeColor={block.themeColor}
-                paddingBottom={block.paddingBottom}
+                paddingLeft={block.paddingLeft}
                 headerColor={block.headerColor}
                 descriptionColor={block.descriptionColor}
                 infoLink={block.infoLink}
                 condition={block.condition}
-            
+                
             />
+            
+          
         )
     })}
     </>

@@ -1,20 +1,18 @@
-import React from 'react'
-import styles from './Block.module.css'
-import Image from 'next/image'
+import React from "react";
+import styles from "./Block.module.css";
+import Image from "next/image";
 
 const Block = ({
   headerName,
   description,
   imageSrc,
   themeColor,
-  paddingBottom,
+  paddingLeft,
   headerColor,
   descriptionColor,
   infoLink,
   condition, // added prop for conditional rendering
 }) => {
-
-
   let state;
   if (condition === 1) {
     state = <p className={styles.stateActive}>Aktif</p>;
@@ -26,19 +24,34 @@ const Block = ({
     state = <p className={styles.stateBasic}>Temel Özellikler Mevcut</p>;
   } else if (condition === 5) {
     state = <p className={styles.stateWait}>Bekliyor</p>;
-  } 
+  }
 
   return (
-    <div className={styles.Container} style={{ backgroundColor: themeColor }}>
-      <div className={styles.textContainer}>
-        {state}
-        <h1 className={styles.mainHeader} style={{ color: headerColor }}>{headerName}</h1>
-        <p className={styles.description} style={{ color: descriptionColor }}>{description}</p>
-        <a className={styles.blockLink} href={infoLink}>Daha Fazla Bilgi Al</a>
+    <div className={styles.greatContainer} style={{ paddingLeft: paddingLeft }}>
+      <div
+        className={styles.Container}
+        style={{
+          background: `linear-gradient(to right, ${themeColor}, white)`,
+        }}
+      >
+        <div className={styles.textContainer}>
+          {state}
+          <h1 className={styles.mainHeader} style={{ color: headerColor }}>
+            {headerName}
+          </h1>
+          <p className={styles.description} style={{ color: descriptionColor }}>
+            {description}
+          </p>
+          <a className={styles.blockLink} href={infoLink}>
+            Daha Fazla Bilgi Al
+          </a>
+        </div>
+        <div className={styles.imageFirst}>
+          <Image className={styles.ımage} src={imageSrc} alt="imageBradi" width={500} height={500}/>
+        </div>
       </div>
-      <div className={styles.imageFirst} style={{ paddingBottom: paddingBottom }}> <Image src={imageSrc} alt='imageBradi' width={500} height={500} /> </div>
     </div>
-  )
-}
+  );
+};
 
-export default Block
+export default Block;

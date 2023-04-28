@@ -1,43 +1,166 @@
-.Container{
+.greatContainer {
+  padding-top: 1%;
+  display: flex;
+}
+
+.Container {
+  color: rgb(212, 218, 218);
+  background-color: #7994b8;
+  height: 300px;
+  width: 98%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 500px;
+}
+.textContainer {
+  display: grid;
+  padding: 10px;
+  font-size: x-large;
+
+  width: 500px;
+}
+
+.mainHeader {
+}
+
+.description {
+  font-size: medium;
+  width: 200px;
+  font-weight: 600;
+}
+.imageFirst {
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 70px;
+}
+.ımage {
+  width: 300px;
+  height: 300px;
+}
+.stateActive {
+  background-color: #13bb37;
+  font-size: 16px;
+  width: 50px;
+  height: 20px;
+  border-radius: 10px;
+  padding-top: 1px;
+  padding-left: 8px;
+  color: #10141a;
+}
+.stateActive {
+  background-color: #13bb37;
+  font-size: 16px;
+  font-weight: 600;
+  width: 50px;
+  height: 20px;
+  border-radius: 6px;
+  padding-top: 1px;
+  padding-left: 8px;
+  color: #e6e7e9;
+}
+.stateDeactive {
+  background-color: #bb1313;
+  font-size: 16px;
+  width: 70px;
+  height: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  padding-top: 1px;
+  padding-left: 8px;
+  color: #e4e7eb;
+}
+.stateComing {
+  background-color: #f78f07;
+  font-size: 16px;
+  font-weight: 600;
+  width: 110px;
+  height: 20px;
+  border-radius: 6px;
+  padding-top: 1px;
+  padding-left: 8px;
+  color: #f1f1f1;
+}
+.stateBasic {
+  background-color: #0b677e;
+  font-size: 16px;
+  font-weight: 600;
+  width: 195px;
+  height: 20px;
+  border-radius: 6px;
+  padding-top: 1px;
+  padding-left: 8px;
+  color: #f1f1f1;
+}
+.stateWait {
+  background-color: #7e0b6b;
+  font-size: 16px;
+  font-weight: 600;
+  width: 80px;
+  height: 20px;
+  border-radius: 6px;
+  padding-top: 1px;
+  padding-left: 8px;
+  color: #f1f1f1;
+}
+.blockLink {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #10141a;
+  width: 150px;
+}
+
+@media only screen and (max-width: 1249px) {
+  .greatContainer {
+    padding-top: 1%;
+  }
+
+  .Container {
     color: rgb(212, 218, 218);
-    background-color: #7994B8;
-    height: 500px;
+    background-color: #7994b8;
+    height: 300px;
+    width: 98%;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.textContainer{
+  .textContainer {
     display: grid;
     padding: 10px;
-    font-size: xx-large;
-    width: 550px;
-}
-.mainHeader{
-    
-    
-}
-.description{
     font-size: large;
-    width: 300px;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: small;
+    width: 200px;
     font-weight: 600;
-}
-.imageFirst{
-    
-
-}
-.stateActive{
-    background-color: #13bb37 ;
-    font-size: 16px;
-    width: 50px;
-    height: 20px;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+  .ımage {
+    width: 300px;
+    height: 300px;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 1px;
+    width: 0px;
+    height: 10px;
     border-radius: 10px;
     padding-top: 1px;
     padding-left: 8px;
     color: #10141a;
-}
-.stateActive{
-    background-color: #13bb37 ;
+  }
+  .stateActive {
+    background-color: #13bb37;
     font-size: 16px;
     font-weight: 600;
     width: 50px;
@@ -46,9 +169,9 @@
     padding-top: 1px;
     padding-left: 8px;
     color: #e6e7e9;
-}
-.stateDeactive{
-    background-color: #bb1313 ;
+  }
+  .stateDeactive {
+    background-color: #bb1313;
     font-size: 16px;
     width: 70px;
     height: 20px;
@@ -57,9 +180,9 @@
     padding-top: 1px;
     padding-left: 8px;
     color: #e4e7eb;
-}
-.stateComing{
-    background-color: #f78f07 ;
+  }
+  .stateComing {
+    background-color: #f78f07;
     font-size: 16px;
     font-weight: 600;
     width: 110px;
@@ -68,9 +191,9 @@
     padding-top: 1px;
     padding-left: 8px;
     color: #f1f1f1;
-}
-.stateBasic{
-    background-color: #0b677e ;
+  }
+  .stateBasic {
+    background-color: #0b677e;
     font-size: 16px;
     font-weight: 600;
     width: 195px;
@@ -79,9 +202,9 @@
     padding-top: 1px;
     padding-left: 8px;
     color: #f1f1f1;
-}
-.stateWait{
-    background-color: #7e0b6b ;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
     font-size: 16px;
     font-weight: 600;
     width: 80px;
@@ -90,10 +213,993 @@
     padding-top: 1px;
     padding-left: 8px;
     color: #f1f1f1;
-}
-.blockLink{
+  }
+  .blockLink {
     padding-top: 10px;
     font-size: 16px;
     color: #10141a;
     width: 150px;
+  }
+}
+
+@media only screen and (max-width: 1149px) {
+  .greatContainer {
+    padding-top: 1%;
+  }
+
+  .Container {
+    color: rgb(212, 218, 218);
+    background-color: #7994b8;
+    height: 300px;
+    width: 98%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContainer {
+    display: grid;
+    padding-left: 150px;
+    padding-right: 300px;
+
+    font-size: large;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: small;
+    width: 200px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+  .ımage {
+    width: 250px;
+    height: 250px;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 1px;
+    width: 0px;
+    height: 10px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #10141a;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 16px;
+    font-weight: 600;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e6e7e9;
+  }
+  .stateDeactive {
+    background-color: #bb1313;
+    font-size: 16px;
+    width: 70px;
+    height: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateComing {
+    background-color: #f78f07;
+    font-size: 16px;
+    font-weight: 600;
+    width: 110px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .stateBasic {
+    background-color: #0b677e;
+    font-size: 16px;
+    font-weight: 600;
+    width: 195px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .blockLink {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 1049px) {
+  .greatContainer {
+    padding-top: 1%;
+  }
+
+  .Container {
+    color: rgb(212, 218, 218);
+    background-color: #7994b8;
+    height: 300px;
+    width: 98%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContainer {
+    display: grid;
+    padding-left: 250px;
+    padding-right: 300px;
+
+    font-size: large;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: small;
+    width: 200px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+  .ımage {
+    width: 250px;
+    height: 250px;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 1px;
+    width: 0px;
+    height: 10px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #10141a;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 16px;
+    font-weight: 600;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e6e7e9;
+  }
+  .stateDeactive {
+    background-color: #bb1313;
+    font-size: 16px;
+    width: 70px;
+    height: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateComing {
+    background-color: #f78f07;
+    font-size: 16px;
+    font-weight: 600;
+    width: 110px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .stateBasic {
+    background-color: #0b677e;
+    font-size: 16px;
+    font-weight: 600;
+    width: 195px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .blockLink {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 949px) {
+  .greatContainer {
+    padding-top: 1%;
+  }
+
+  .Container {
+    color: rgb(212, 218, 218);
+    background-color: #7994b8;
+    height: 300px;
+    width: 98%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContainer {
+    display: grid;
+    padding-left: 250px;
+    padding-right: 200px;
+    font-size: large;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: small;
+    width: 200px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+  .ımage {
+    width: 250px;
+    height: 250px;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 1px;
+    width: 0px;
+    height: 10px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #10141a;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 16px;
+    font-weight: 600;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e6e7e9;
+  }
+  .stateDeactive {
+    background-color: #bb1313;
+    font-size: 16px;
+    width: 70px;
+    height: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateComing {
+    background-color: #f78f07;
+    font-size: 16px;
+    font-weight: 600;
+    width: 110px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .stateBasic {
+    background-color: #0b677e;
+    font-size: 16px;
+    font-weight: 600;
+    width: 195px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .blockLink {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 849px) {
+  .greatContainer {
+    padding-top: 1%;
+  }
+
+  .Container {
+    color: rgb(212, 218, 218);
+    background-color: #7994b8;
+    height: 300px;
+    width: 98%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContainer {
+    display: grid;
+    padding-left: 350px;
+    padding-right: 200px;
+    font-size: large;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: small;
+    width: 200px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+  .ımage {
+    width: 250px;
+    height: 250px;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 1px;
+    width: 0px;
+    height: 10px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #10141a;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 16px;
+    font-weight: 600;
+    width: 50px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e6e7e9;
+  }
+  .stateDeactive {
+    background-color: #bb1313;
+    font-size: 16px;
+    width: 70px;
+    height: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateComing {
+    background-color: #f78f07;
+    font-size: 16px;
+    font-weight: 600;
+    width: 110px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .stateBasic {
+    background-color: #0b677e;
+    font-size: 16px;
+    font-weight: 600;
+    width: 195px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80px;
+    height: 20px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #f1f1f1;
+  }
+  .blockLink {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 849px) {
+  .greatContainer {
+    padding-top: 1%;
+  }
+
+  .Container {
+    color: rgb(212, 218, 218);
+    background-color: #7994b8;
+    height: 230px;
+    width: 98%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContainer {
+    display: grid;
+    padding-left: 400px;
+    padding-right: 200px;
+    font-size: large;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: small;
+    width: 200px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+  .ımage {
+    width: 200px;
+    height: 200px;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 12px;
+    font-weight: 600;
+    width: 40px;
+    height: 16px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+
+  .stateDeactive {
+    background-color: #bb1313;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateComing {
+    background-color: #f78f07;
+    font-size: 12px;
+    font-weight: 600;
+    width: 85px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #ffffff;
+  }
+  .stateBasic {
+    background-color: #0b677e;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .blockLink {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  .greatContainer {
+    padding-top: 1%;
+  }
+
+  .Container {
+    color: rgb(212, 218, 218);
+    background-color: #7994b8;
+    height: 230px;
+    width: 98%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContainer {
+    display: grid;
+    padding-left: 400px;
+    padding-right: 190px;
+    font-size: large;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: small;
+    width: 200px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+  .ımage {
+    width: 150px;
+    height: 150px;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 12px;
+    font-weight: 600;
+    width: 40px;
+    height: 16px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+
+  .stateDeactive {
+    background-color: #bb1313;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateComing {
+    background-color: #f78f07;
+    font-size: 12px;
+    font-weight: 600;
+    width: 85px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #ffffff;
+  }
+  .stateBasic {
+    background-color: #0b677e;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .blockLink {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 584px) {
+  .greatContainer {
+    padding-top: 1%;
+    padding-left: 0px;
+  
+  }
+
+  .Container {
+    color: rgb(212, 218, 218);
+    background-color: #7994b8;
+    height: 200px;
+    width: 98%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContainer {
+    
+    padding-left: 400px;
+    padding-right: 150px;
+    font-size: medium;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: x-small;
+    width: 200px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+  .ımage {
+    width: 120px;
+    height: 120px;
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 12px;
+    font-weight: 600;
+    width: 40px;
+    height: 16px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+
+  .stateDeactive {
+    background-color: #bb1313;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateComing {
+    background-color: #f78f07;
+    font-size: 12px;
+    font-weight: 600;
+    width: 85px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #ffffff;
+  }
+  .stateBasic {
+    background-color: #0b677e;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .blockLink {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 551px) {
+  .greatContainer {
+    padding-top: 1%;
+    padding-left: 0px;
+  
+  }
+
+  .Container {
+    color: rgb(212, 218, 218);
+    background-color: #7994b8;
+    height: 200px;
+    width: 98%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContainer {
+    
+    padding-left: 400px;
+    padding-right: 150px;
+    font-size: medium;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: x-small;
+    width: 200px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+    visibility: hidden;
+  }
+  .ımage {
+    width: 120px;
+    height: 120px;
+    visibility: hidden;
+
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 12px;
+    font-weight: 600;
+    width: 40px;
+    height: 16px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+
+  .stateDeactive {
+    background-color: #bb1313;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateComing {
+    background-color: #f78f07;
+    font-size: 12px;
+    font-weight: 600;
+    width: 85px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #ffffff;
+  }
+  .stateBasic {
+    background-color: #0b677e;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .blockLink {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 401px) {
+  .greatContainer {
+    padding-top: 1%;
+    padding-left: 0px;
+  
+  }
+
+  .Container {
+    color: rgb(212, 218, 218);
+    background-color: #7994b8;
+    height: 200px;
+    width: 98%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textContainer {
+    
+    padding-left: 400px;
+    padding-right: 150px;
+    font-size: small;
+    width: 200px;
+  }
+  .mainHeader {
+  }
+  .description {
+    font-size: xx-small;
+    width: 200px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 70px;
+    visibility: hidden;
+  }
+  .ımage {
+    width: 120px;
+    height: 120px;
+    visibility: hidden;
+
+  }
+  .stateActive {
+    background-color: #13bb37;
+    font-size: 12px;
+    font-weight: 600;
+    width: 40px;
+    height: 16px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+
+  .stateDeactive {
+    background-color: #bb1313;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateComing {
+    background-color: #f78f07;
+    font-size: 12px;
+    font-weight: 600;
+    width: 85px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #ffffff;
+  }
+  .stateBasic {
+    background-color: #0b677e;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .stateWait {
+    background-color: #7e0b6b;
+    font-size: 12px;
+    font-weight: 600;
+    width: 60px;
+    height: 16px;
+    border-radius: 6px;
+    padding-top: 1px;
+
+    padding-left: 8px;
+    color: #e4e7eb;
+  }
+  .blockLink {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #10141a;
+    width: 150px;
+  }
 }

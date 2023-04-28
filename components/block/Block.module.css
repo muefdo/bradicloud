@@ -1,29 +1,446 @@
-.Container{
-    color: #112d69;
-    background-color: #73b6fa;
-    width: auto;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Container {
+  color: #112d69;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./public/header.png");
+ 
+ 
 }
-.textContainer{
+.headerImage{
+
+  width: 1500px;
+  height: 500px;
+  z-index: -99;
+  padding-top: 0px;
+}
+
+.textContainer {
+  display: grid;
+  padding: 10px;
+  font-size: xx-large;
+  width: 700px;
+  padding-right: 1200px;
+}
+.mainHeader {
+  line-height: 60px;
+  width: max-content;
+}
+.description {
+  font-size: large;
+  color: rgb(9, 7, 32);
+  padding-top: 20px;
+
+  width: 400px;
+  font-weight: 600;
+}
+.imageFirst {
+  padding-left: 900px;
+  position: fixed;
+  
+}
+.imageCloud{
+  width: 400px;
+  height: 400px;
+}
+.imageTech{
+  width: 150px;
+  height: 150px;
+}
+
+.braditechContainer {
+  padding-top: 110px;
+  position: fixed;
+  padding-left: 700px;
+}
+
+@media only screen and (max-width: 1268px) {
+
+
+  .textContainer {
     display: grid;
     padding: 10px;
-    font-size: xx-large;
-    width: 550px;
-}
-.mainHeader{
-    line-height: 60px;
-}
-.description{
-    font-size: large;
+    font-size: x-large;
+    width: 700px;
+    padding-right: 1100px;
+    padding-left: 50px;
+  }
+  .mainHeader {
+    line-height: 45px;
+    width: max-content;
+  }
+  .description {
+    font-size: medium;
     color: rgb(9, 7, 32);
     padding-top: 20px;
-   
     width: 400px;
     font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 700px;
+    position: fixed;
+    
+  }
 }
-.imageFirst{
-    padding-left: 120px;
+@media only screen and (max-width: 1118px) {
+
+
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: x-large;
+    width: 700px;
+    padding-right: 1100px;
+    padding-left: 160px;
+  }
+  .mainHeader {
+    line-height: 45px;
+    width: max-content;
+    
+  }
+  .description {
+    font-size: medium;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 600px;
+    position: fixed;
+    
+  }
+}
+
+@media only screen and (max-width: 948px) {
+
+
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: x-large;
+    width: 700px;
+    padding-right: 1100px;
+    padding-left: 250px;
+  }
+  .mainHeader {
+    line-height: 45px;
+    width: max-content;
+    
+  }
+  .description {
+    font-size: medium;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 500px;
+    position: fixed;
+    display: flex;
+    
+  }
+  .imageCloud{
+    width: 300px;
+    height: 300px;
+  }
+  .imageTech{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 852px) {
+
+
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: x-large;
+    
+    padding-right: 1100px;
+    padding-left: 350px;
+  }
+  .mainHeader {
+    line-height: 45px;
+    width: max-content;
+    
+  }
+  .description {
+    font-size: medium;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 500px;
+    position: fixed;
+    display: flex;
+    
+  }
+  .imageCloud{
+    width: 300px;
+    height: 300px;
+  }
+  .imageTech{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 771px) {
+
+
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: large;
+    
+    padding-right: 1100px;
+    padding-left: 450px;
+  }
+  .mainHeader {
+    line-height: 33px;
+    width: max-content;
+    
+  }
+  .description {
+    font-size: small;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 380px;
+    position: fixed;
+    display: flex;
+  }
+  .braditechContainer{
+    padding-left: 380px;
+    padding-bottom: 20px;
+  }
+  .imageCloud{
+    width: 200px;
+    height: 200px;
+  }
+  .imageTech{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 661px) {
+
+
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: large;
+    
+    padding-right: 1100px;
+    padding-left: 550px;
+  }
+  .mainHeader {
+    line-height: 33px;
+    width: max-content;
+    
+  }
+  .description {
+    font-size: small;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 380px;
+    position: fixed;
+    display: flex;
+  }
+  .braditechContainer{
+    padding-left: 380px;
+    padding-bottom: 20px;
+  }
+  .imageCloud{
+    width: 200px;
+    height: 200px;
+  }
+  .imageTech{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 561px) {
+
+
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: large;
+    
+    padding-right: 1100px;
+    padding-left: 650px;
+  }
+  .mainHeader {
+    line-height: 33px;
+    width: max-content;
+    
+  }
+  .description {
+    font-size: small;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 320px;
+    position: fixed;
+    display: flex;
+  }
+  .braditechContainer{
+    padding-left: 320px;
+    padding-bottom: 20px;
+  }
+  .imageCloud{
+    width: 200px;
+    height: 200px;
+  }
+  .imageTech{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 461px) {
+
+
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: large;
+    
+    padding-right: 1100px;
+    padding-left: 750px;
+  }
+  .mainHeader {
+    line-height: 33px;
+    width: max-content;
+    
+  }
+  .description {
+    font-size: small;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 250px;
+    position: fixed;
+    display: flex;
+  }
+  .braditechContainer{
+    padding-left: 250px;
+    padding-bottom: 60px;
+  }
+  .imageCloud{
+    width: 100px;
+    height: 100px;
+  }
+  .imageTech{
+    width: 60px;
+    height: 60px;
+  }
+}
+
+
+@media only screen and (max-width: 378px) {
+
+
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: large;
+    
+    padding-right: 1100px;
+    padding-left: 750px;
+  }
+  .mainHeader {
+    line-height: 33px;
+    width: max-content;
+    
+  }
+  .description {
+    font-size: small;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 250px;
+    position: fixed;
+    display: flex;
+  }
+  .braditechContainer{
+    padding-left: 250px;
+    padding-bottom: 60px;
+  }
+  .imageCloud{
+    width: 100px;
+    height: 100px;
+  }
+  .imageTech{
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+
+
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: large;
+    
+    padding-right: 1100px;
+    padding-left: 780px;
+  }
+  .mainHeader {
+    line-height: 33px;
+    width: max-content;
+    
+  }
+  .description {
+    font-size: small;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 250px;
+    position: fixed;
+    display: flex;
+  }
+  .braditechContainer{
+    padding-left: 250px;
+    padding-bottom: 60px;
+  }
+  .imageCloud{
+    width: 100px;
+    height: 100px;
+  
+  }
+  .imageTech{
+    width: 60px;
+    height: 60px;
+  }
 }
