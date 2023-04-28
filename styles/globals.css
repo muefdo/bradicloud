@@ -9,7 +9,6 @@
   padding: 0;
   margin: 0;
   font-family: Helvetica;
-
 }
 
 .headerContainer {
@@ -34,11 +33,18 @@
 }
 
 .footer {
-  background-color: rgb(214, 221, 221);
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(77, 214, 227, 1) 27%,
+    rgba(64, 184, 226, 1) 68%,
+    rgba(0, 151, 255, 1) 100%
+  );
+  margin-right: 0px;
+  padding: 0;
 }
 .footerLinks {
   padding-right: 650px;
@@ -53,4 +59,200 @@
   display: grid;
   align-items: center;
   justify-content: center;
+}
+@media only screen and (max-width: 1155px) {
+  .greatFooter {
+    padding-top: 1%;
+  }
+
+  .footerImage{
+    padding-left: 80px;
+  }
+  
+  .footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      90deg,
+      rgba(77, 214, 227, 1) 27%,
+      rgba(64, 184, 226, 1) 68%,
+      rgba(0, 151, 255, 1) 100%
+    );
+  }
+  .footerLinks {
+    padding-right: 300px;
+    padding-left: 150px;
+    display: flex;
+  }
+  .Github {
+    padding-right: 20px;
+  }
+  .footerGrid {
+    padding-left: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .greatFooter {
+    padding-top: 1%;
+    margin: 0;
+  }
+
+  .footerImage{
+    padding-left: 80px;
+  }
+  
+  .footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      90deg,
+      rgba(77, 214, 227, 1) 27%,
+      rgba(64, 184, 226, 1) 68%,
+      rgba(0, 151, 255, 1) 100%
+    );
+  }
+  .footerLinks {
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+  }
+  .Github {
+    padding-right: 20px;
+  }
+  .footerGrid {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .greatFooter {
+    padding-top: 1%;
+    margin: 0;
+  }
+
+  .footerImage{
+    padding-left: 20px;
+  }
+  
+  .footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      90deg,
+      rgba(77, 214, 227, 1) 27%,
+      rgba(64, 184, 226, 1) 68%,
+      rgba(0, 151, 255, 1) 100%
+    );
+  }
+  .footerLinks {
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex;
+  }
+  .Github {
+    padding-right: 20px;
+  }
+  .footerGrid {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .greatFooter {
+    padding-top: 1%;
+    margin: 0;
+  }
+
+  .footerImage{
+    padding-left: 20px;
+  }
+  
+  .footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      90deg,
+      rgba(77, 214, 227, 1) 27%,
+      rgba(64, 184, 226, 1) 68%,
+      rgba(0, 151, 255, 1) 100%
+    );
+  }
+  .footerLinks {
+    padding-right: 60px;
+    padding-left: 60px;
+    display: flex;
+  }
+  .Github {
+    padding-right: 20px;
+  }
+  .footerGrid {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 405px) {
+  .greatFooter {
+    padding-top: 1%;
+    margin: 0;
+  }
+
+  .footerImage{
+    padding-left: 20px;
+  }
+  
+  .footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      90deg,
+      rgba(77, 214, 227, 1) 27%,
+      rgba(64, 184, 226, 1) 68%,
+      rgba(0, 151, 255, 1) 100%
+    );
+  }
+  .footerLinks {
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+  }
+  .Github {
+    padding-right: 20px;
+  }
+  .footerGrid {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+  }
 }

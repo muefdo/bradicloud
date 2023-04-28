@@ -5,15 +5,8 @@
   align-items: center;
   justify-content: center;
   background-image: url("./public/header.png");
+  width: 100%;
  
- 
-}
-.headerImage{
-
-  width: 1500px;
-  height: 500px;
-  z-index: -99;
-  padding-top: 0px;
 }
 
 .textContainer {
@@ -43,10 +36,12 @@
 .imageCloud{
   width: 400px;
   height: 400px;
+  
 }
 .imageTech{
   width: 150px;
   height: 150px;
+ 
 }
 
 .braditechContainer {

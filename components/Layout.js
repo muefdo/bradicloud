@@ -54,6 +54,7 @@ const Layout = ({ children }) => {
                   <Link href="/" passHref legacyBehavior>
                     <a>
                       <Image
+                     
                         src={githubLogo}
                         alt="logo"
                         width={30}
