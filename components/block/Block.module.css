@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   background-image: url("./public/header.png");
-  width: 100%;
+ 
  
 }
 
@@ -13,8 +13,8 @@
   display: grid;
   padding: 10px;
   font-size: xx-large;
-  width: 700px;
-  padding-right: 1200px;
+  width: 500px;
+  padding-right: 200px;
 }
 .mainHeader {
   line-height: 60px;
@@ -316,12 +316,13 @@
 
 
   .textContainer {
-    display: grid;
+    display: start;
     padding: 10px;
+    position: relative;
     font-size: large;
-    
-    padding-right: 1100px;
-    padding-left: 750px;
+    padding-left: 50px;
+   
+   
   }
   .mainHeader {
     line-height: 33px;
@@ -363,7 +364,7 @@
     padding: 10px;
     font-size: large;
     
-    padding-right: 1100px;
+ 
     padding-left: 750px;
   }
   .mainHeader {
@@ -405,7 +406,7 @@
     padding: 10px;
     font-size: large;
     
-    padding-right: 1100px;
+    padding-right: 100px;
     padding-left: 780px;
   }
   .mainHeader {

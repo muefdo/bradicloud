@@ -28,7 +28,7 @@ const Block = () => {
           <br />
           bradi.cloud&apos;da sizler için paylaşıyoruz.
         </p>
-       
+
       </div>
       <div className={styles.imageFirst}>
         {" "}
