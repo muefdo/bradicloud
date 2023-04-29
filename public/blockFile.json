@@ -41,7 +41,7 @@
         "descriptionColor": "#7728d1",
         "headerColor": "#301069",
         "infoLink": "",
-        "condition": 4 
+        "condition": 5 
     }, 
     {
         "headerName": "Ders Dostum",
@@ -63,7 +63,7 @@
         "descriptionColor": "#0c5753",
         "headerColor": "#0f2625",
         "infoLink": "",
-        "condition": 1 
+        "condition": 2 
     },
     {
         "headerName": "SendCrypto",

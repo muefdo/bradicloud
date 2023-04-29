@@ -17,7 +17,7 @@ const Block = ({
   if (condition === 1) {
     state = <p className={styles.stateActive}>Aktif</p>;
   } else if (condition === 2) {
-    state = <p className={styles.stateDeactive}>Deaktif</p>;
+    state = <p className={styles.stateDeactive}>İnaktif</p>;
   } else if (condition === 3) {
     state = <p className={styles.stateComing}>Geliştiriliyor</p>;
   } else if (condition === 4) {
