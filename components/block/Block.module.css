@@ -5,16 +5,15 @@
   align-items: center;
   justify-content: center;
   background-image: url("./public/header.png");
- 
- 
 }
 
 .textContainer {
   display: grid;
   padding: 10px;
   font-size: xx-large;
-  width: 500px;
-  padding-right: 200px;
+  width: 700px;
+  padding-right: 1400px;
+  
 }
 .mainHeader {
   line-height: 60px;
@@ -31,17 +30,14 @@
 .imageFirst {
   padding-left: 900px;
   position: fixed;
-  
 }
-.imageCloud{
+.imageCloud {
   width: 400px;
   height: 400px;
-  
 }
-.imageTech{
+.imageTech {
   width: 150px;
   height: 150px;
- 
 }
 
 .braditechContainer {
@@ -51,8 +47,6 @@
 }
 
 @media only screen and (max-width: 1268px) {
-
-
   .textContainer {
     display: grid;
     padding: 10px;
@@ -75,12 +69,9 @@
   .imageFirst {
     padding-left: 700px;
     position: fixed;
-    
   }
 }
 @media only screen and (max-width: 1118px) {
-
-
   .textContainer {
     display: grid;
     padding: 10px;
@@ -92,7 +83,6 @@
   .mainHeader {
     line-height: 45px;
     width: max-content;
-    
   }
   .description {
     font-size: medium;
@@ -104,13 +94,10 @@
   .imageFirst {
     padding-left: 600px;
     position: fixed;
-    
   }
 }
 
 @media only screen and (max-width: 948px) {
-
-
   .textContainer {
     display: grid;
     padding: 10px;
@@ -122,7 +109,6 @@
   .mainHeader {
     line-height: 45px;
     width: max-content;
-    
   }
   .description {
     font-size: medium;
@@ -135,33 +121,29 @@
     padding-left: 500px;
     position: fixed;
     display: flex;
-    
   }
-  .imageCloud{
+  .imageCloud {
     width: 300px;
     height: 300px;
   }
-  .imageTech{
+  .imageTech {
     width: 100px;
     height: 100px;
   }
 }
 
 @media only screen and (max-width: 852px) {
-
-
   .textContainer {
     display: grid;
     padding: 10px;
     font-size: x-large;
-    
+
     padding-right: 1100px;
     padding-left: 350px;
   }
   .mainHeader {
     line-height: 45px;
     width: max-content;
-    
   }
   .description {
     font-size: medium;
@@ -174,33 +156,29 @@
     padding-left: 500px;
     position: fixed;
     display: flex;
-    
   }
-  .imageCloud{
+  .imageCloud {
     width: 300px;
     height: 300px;
   }
-  .imageTech{
+  .imageTech {
     width: 100px;
     height: 100px;
   }
 }
 
 @media only screen and (max-width: 771px) {
-
-
   .textContainer {
     display: grid;
     padding: 10px;
     font-size: large;
-    
+
     padding-right: 1100px;
     padding-left: 450px;
   }
   .mainHeader {
     line-height: 33px;
     width: max-content;
-    
   }
   .description {
     font-size: small;
@@ -214,35 +192,32 @@
     position: fixed;
     display: flex;
   }
-  .braditechContainer{
+  .braditechContainer {
     padding-left: 380px;
     padding-bottom: 20px;
   }
-  .imageCloud{
+  .imageCloud {
     width: 200px;
     height: 200px;
   }
-  .imageTech{
+  .imageTech {
     width: 80px;
     height: 80px;
   }
 }
 
 @media only screen and (max-width: 661px) {
-
-
   .textContainer {
     display: grid;
     padding: 10px;
     font-size: large;
-    
+
     padding-right: 1100px;
     padding-left: 550px;
   }
   .mainHeader {
     line-height: 33px;
     width: max-content;
-    
   }
   .description {
     font-size: small;
@@ -256,35 +231,32 @@
     position: fixed;
     display: flex;
   }
-  .braditechContainer{
+  .braditechContainer {
     padding-left: 380px;
     padding-bottom: 20px;
   }
-  .imageCloud{
+  .imageCloud {
     width: 200px;
     height: 200px;
   }
-  .imageTech{
+  .imageTech {
     width: 80px;
     height: 80px;
   }
 }
 
 @media only screen and (max-width: 561px) {
-
-
   .textContainer {
     display: grid;
     padding: 10px;
     font-size: large;
-    
+
     padding-right: 1100px;
     padding-left: 650px;
   }
   .mainHeader {
     line-height: 33px;
     width: max-content;
-    
   }
   .description {
     font-size: small;
@@ -298,36 +270,31 @@
     position: fixed;
     display: flex;
   }
-  .braditechContainer{
+  .braditechContainer {
     padding-left: 320px;
     padding-bottom: 20px;
   }
-  .imageCloud{
+  .imageCloud {
     width: 200px;
     height: 200px;
   }
-  .imageTech{
+  .imageTech {
     width: 80px;
     height: 80px;
   }
 }
 
 @media only screen and (max-width: 461px) {
-
-
   .textContainer {
     display: start;
     padding: 10px;
     position: relative;
     font-size: large;
     padding-left: 50px;
-   
-   
   }
   .mainHeader {
     line-height: 33px;
     width: max-content;
-    
   }
   .description {
     font-size: small;
@@ -341,36 +308,31 @@
     position: fixed;
     display: flex;
   }
-  .braditechContainer{
+  .braditechContainer {
     padding-left: 250px;
     padding-bottom: 60px;
   }
-  .imageCloud{
+  .imageCloud {
     width: 100px;
     height: 100px;
   }
-  .imageTech{
+  .imageTech {
     width: 60px;
     height: 60px;
   }
 }
 
-
 @media only screen and (max-width: 378px) {
-
-
   .textContainer {
     display: grid;
     padding: 10px;
     font-size: large;
-    
- 
+
     padding-left: 750px;
   }
   .mainHeader {
     line-height: 33px;
     width: max-content;
-    
   }
   .description {
     font-size: small;
@@ -384,35 +346,32 @@
     position: fixed;
     display: flex;
   }
-  .braditechContainer{
+  .braditechContainer {
     padding-left: 250px;
     padding-bottom: 60px;
   }
-  .imageCloud{
+  .imageCloud {
     width: 100px;
     height: 100px;
   }
-  .imageTech{
+  .imageTech {
     width: 60px;
     height: 60px;
   }
 }
 
 @media only screen and (max-width: 378px) {
-
-
   .textContainer {
     display: grid;
     padding: 10px;
     font-size: large;
-    
+
     padding-right: 100px;
     padding-left: 780px;
   }
   .mainHeader {
     line-height: 33px;
     width: max-content;
-    
   }
   .description {
     font-size: small;
@@ -426,16 +385,15 @@
     position: fixed;
     display: flex;
   }
-  .braditechContainer{
+  .braditechContainer {
     padding-left: 250px;
     padding-bottom: 60px;
   }
-  .imageCloud{
+  .imageCloud {
     width: 100px;
     height: 100px;
-  
   }
-  .imageTech{
+  .imageTech {
     width: 60px;
     height: 60px;
   }

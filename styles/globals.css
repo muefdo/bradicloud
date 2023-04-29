@@ -60,6 +60,10 @@
   align-items: center;
   justify-content: center;
 }
+.layout{
+  overflow-x: hidden;
+  
+}
 @media only screen and (max-width: 1155px) {
   .greatFooter {
     padding-top: 1%;
