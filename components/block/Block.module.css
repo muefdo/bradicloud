@@ -398,3 +398,41 @@
     height: 60px;
   }
 }
+@media only screen and (max-width: 346px) {
+  .textContainer {
+    display: grid;
+    padding: 10px;
+    font-size: large;
+
+    padding-right: 100px;
+    padding-left: 780px;
+  }
+  .mainHeader {
+    line-height: 33px;
+    width: max-content;
+  }
+  .description {
+    font-size: small;
+    color: rgb(9, 7, 32);
+    padding-top: 20px;
+    width: 400px;
+    font-weight: 600;
+  }
+  .imageFirst {
+    padding-left: 250px;
+    position: fixed;
+    display: flex;
+  }
+  .braditechContainer {
+    padding-left: 250px;
+    padding-bottom: 60px;
+  }
+  .imageCloud {
+    width: 100px;
+    height: 100px;
+  }
+  .imageTech {
+    width: 60px;
+    height: 60px;
+  }
+}
