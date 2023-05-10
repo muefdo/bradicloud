@@ -85,16 +85,6 @@
         padding-top: 1%
     }
 
-    .Container {
-        color: #d4dada;
-        background-color: #7994b8;
-        height: 300px;
-        width: 98%;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center
-    }
 
     .textContainer {
         display: grid;
@@ -103,80 +93,14 @@
         width: 200px
     }
 
-    .description {
-        font-size: small;
-        width: 200px;
-        font-weight: 600
-    }
-
-    .imageFirst {
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 70px
-    }
-
+ 
     .ımage {
         width: 300px;
         height: 300px
     }
-
-    .stateActive,.stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #13bb37;
-        font-size: 16px;
-        font-weight: 600;
-        width: 50px;
-        height: 20px;
-        border-radius: 6px;
-        padding-top: 1px;
-        padding-left: 8px;
-        color: #e6e7e9
-    }
-
-    .stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #bb1313;
-        width: 70px;
-        color: #e4e7eb
-    }
-
-    .stateBasic,.stateComing,.stateWait {
-        background-color: #f78f07;
-        width: 110px;
-        color: #f1f1f1
-    }
-
-    .stateBasic,.stateWait {
-        background-color: #0b677e;
-        width: 195px
-    }
-
-    .stateWait {
-        background-color: #7e0b6b;
-        width: 80px
-    }
-
-    .blockLink {
-        padding-top: 10px;
-        font-size: 16px;
-        color: #10141a;
-        width: 150px
-    }
 }
 
 @media only screen and (max-width:1149px) {
-    .greatContainer {
-        padding-top: 1%
-    }
-
-    .Container {
-        color: #d4dada;
-        background-color: #7994b8;
-        height: 300px;
-        width: 98%;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center
-    }
 
     .textContainer {
         display: grid;
@@ -186,81 +110,11 @@
         width: 200px
     }
 
-    .description {
-        font-size: small;
-        width: 200px;
-        font-weight: 600
-    }
-
-    .imageFirst {
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 70px
-    }
-
-    .ımage {
-        width: 250px;
-        height: 250px
-    }
-
-    .stateActive,.stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #13bb37;
-        font-size: 16px;
-        font-weight: 600;
-        width: 50px;
-        height: 20px;
-        border-radius: 6px;
-        padding-top: 1px;
-        padding-left: 8px;
-        color: #e6e7e9
-    }
-
-    .stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #bb1313;
-        width: 70px;
-        color: #e4e7eb
-    }
-
-    .stateBasic,.stateComing,.stateWait {
-        background-color: #f78f07;
-        width: 110px;
-        color: #f1f1f1
-    }
-
-    .stateBasic,.stateWait {
-        background-color: #0b677e;
-        width: 195px
-    }
-
-    .stateWait {
-        background-color: #7e0b6b;
-        width: 80px
-    }
-
-    .blockLink {
-        padding-top: 10px;
-        font-size: 16px;
-        color: #10141a;
-        width: 150px
-    }
+  
 }
 
 @media only screen and (max-width:1049px) {
-    .greatContainer {
-        padding-top: 1%
-    }
-
-    .Container {
-        color: #d4dada;
-        background-color: #7994b8;
-        height: 300px;
-        width: 98%;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center
-    }
-
+  
     .textContainer {
         display: grid;
         padding-left: 250px;
@@ -269,81 +123,17 @@
         width: 200px
     }
 
-    .description {
-        font-size: small;
-        width: 200px;
-        font-weight: 600
-    }
-
-    .imageFirst {
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 70px
-    }
 
     .ımage {
         width: 250px;
         height: 250px
     }
 
-    .stateActive,.stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #13bb37;
-        font-size: 16px;
-        font-weight: 600;
-        width: 50px;
-        height: 20px;
-        border-radius: 6px;
-        padding-top: 1px;
-        padding-left: 8px;
-        color: #e6e7e9
-    }
-
-    .stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #bb1313;
-        width: 70px;
-        color: #e4e7eb
-    }
-
-    .stateBasic,.stateComing,.stateWait {
-        background-color: #f78f07;
-        width: 110px;
-        color: #f1f1f1
-    }
-
-    .stateBasic,.stateWait {
-        background-color: #0b677e;
-        width: 195px
-    }
-
-    .stateWait {
-        background-color: #7e0b6b;
-        width: 80px
-    }
-
-    .blockLink {
-        padding-top: 10px;
-        font-size: 16px;
-        color: #10141a;
-        width: 150px
-    }
+   
 }
 
 @media only screen and (max-width:949px) {
-    .greatContainer {
-        padding-top: 1%
-    }
-
-    .Container {
-        color: #d4dada;
-        background-color: #7994b8;
-        height: 300px;
-        width: 98%;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center
-    }
-
+   
     .textContainer {
         display: grid;
         padding-left: 250px;
@@ -352,63 +142,11 @@
         width: 200px
     }
 
-    .description {
-        font-size: small;
-        width: 200px;
-        font-weight: 600
-    }
-
-    .imageFirst {
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 70px
-    }
-
     .ımage {
         width: 250px;
         height: 250px
     }
 
-    .stateActive,.stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #13bb37;
-        font-size: 16px;
-        font-weight: 600;
-        width: 50px;
-        height: 20px;
-        border-radius: 6px;
-        padding-top: 1px;
-        padding-left: 8px;
-        color: #e6e7e9
-    }
-
-    .stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #bb1313;
-        width: 70px;
-        color: #e4e7eb
-    }
-
-    .stateBasic,.stateComing,.stateWait {
-        background-color: #f78f07;
-        width: 110px;
-        color: #f1f1f1
-    }
-
-    .stateBasic,.stateWait {
-        background-color: #0b677e;
-        width: 195px
-    }
-
-    .stateWait {
-        background-color: #7e0b6b;
-        width: 80px
-    }
-
-    .blockLink {
-        padding-top: 10px;
-        font-size: 16px;
-        color: #10141a;
-        width: 150px
-    }
 }
 
 @media only screen and (max-width:849px) {
@@ -417,14 +155,8 @@
     }
 
     .Container {
-        color: #d4dada;
-        background-color: #7994b8;
         height: 230px;
-        width: 98%;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center
+        width: 98%;     
     }
 
     .textContainer {
@@ -437,14 +169,6 @@
 
     .description {
         font-size: small;
-        width: 200px;
-        font-weight: 600
-    }
-
-    .imageFirst {
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 70px
     }
 
     .ımage {
@@ -452,47 +176,6 @@
         height: 200px
     }
 
-    .stateActive,.stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #13bb37;
-        font-size: 12px;
-        font-weight: 600;
-        width: 40px;
-        height: 16px;
-        border-radius: 10px;
-        padding-top: 1px;
-        padding-left: 8px;
-        color: #e4e7eb
-    }
-
-    .stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #bb1313;
-        width: 60px;
-        border-radius: 6px
-    }
-
-    .stateBasic,.stateComing,.stateWait {
-        background-color: #f78f07;
-        width: 85px;
-        color: #fff
-    }
-
-    .stateBasic,.stateWait {
-        background-color: #0b677e;
-        width: 150px;
-        color: #e4e7eb
-    }
-
-    .stateWait {
-        background-color: #7e0b6b;
-        width: 60px
-    }
-
-    .blockLink {
-        padding-top: 10px;
-        font-size: 16px;
-        color: #10141a;
-        width: 150px
-    }
 }
 
 @media only screen and (max-width:649px) {
@@ -501,14 +184,7 @@
     }
 
     .Container {
-        color: #d4dada;
-        background-color: #7994b8;
         height: 230px;
-        width: 98%;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center
     }
 
     .textContainer {
@@ -521,8 +197,6 @@
 
     .description {
         font-size: small;
-        width: 200px;
-        font-weight: 600
     }
 
     .imageFirst {
@@ -536,47 +210,6 @@
         height: 150px
     }
 
-    .stateActive,.stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #13bb37;
-        font-size: 12px;
-        font-weight: 600;
-        width: 40px;
-        height: 16px;
-        border-radius: 10px;
-        padding-top: 1px;
-        padding-left: 8px;
-        color: #e4e7eb
-    }
-
-    .stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #bb1313;
-        width: 60px;
-        border-radius: 6px
-    }
-
-    .stateBasic,.stateComing,.stateWait {
-        background-color: #f78f07;
-        width: 85px;
-        color: #fff
-    }
-
-    .stateBasic,.stateWait {
-        background-color: #0b677e;
-        width: 150px;
-        color: #e4e7eb
-    }
-
-    .stateWait {
-        background-color: #7e0b6b;
-        width: 60px
-    }
-
-    .blockLink {
-        padding-top: 10px;
-        font-size: 16px;
-        color: #10141a;
-        width: 150px
-    }
 }
 
 @media only screen and (max-width:584px) {
@@ -586,14 +219,7 @@
     }
 
     .Container {
-        color: #d4dada;
-        background-color: #7994b8;
-        height: 200px;
-        width: 98%;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center
+        height: 200px;    
     }
 
     .textContainer {
@@ -609,27 +235,9 @@
         font-weight: 600
     }
 
-    .imageFirst {
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 70px
-    }
-
     .ımage {
         width: 120px;
         height: 120px
-    }
-
-    .stateActive,.stateBasic,.stateComing,.stateDeactive,.stateWait {
-        background-color: #13bb37;
-        font-size: 12px;
-        font-weight: 600;
-        width: 40px;
-        height: 16px;
-        border-radius: 10px;
-        padding-top: 1px;
-        padding-left: 8px;
-        color: #e4e7eb
     }
 
     .stateBasic,.stateComing,.stateDeactive,.stateWait {
@@ -637,31 +245,6 @@
         width: 60px;
         height: 17px;
         border-radius: 6px
-    }
-
-    .stateBasic,.stateComing,.stateWait {
-        background-color: #f78f07;
-        width: 85px;
-        height: 16px;
-        color: #fff
-    }
-
-    .stateBasic,.stateWait {
-        background-color: #0b677e;
-        width: 150px;
-        color: #e4e7eb
-    }
-
-    .stateWait {
-        background-color: #7e0b6b;
-        width: 60px
-    }
-
-    .blockLink {
-        padding-top: 10px;
-        font-size: 16px;
-        color: #10141a;
-        width: 150px
     }
 }
 
@@ -672,14 +255,7 @@
     }
 
     .Container {
-        color: #d4dada;
-        background-color: #7994b8;
         height: 200px;
-        width: 98%;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center
     }
 
     .textContainer {
@@ -745,7 +321,7 @@
 
     .blockLink {
         padding-top: 10px;
-        font-size: 16px;
+        font-size: 12px;
         color: #10141a;
         width: 150px
     }
@@ -831,8 +407,94 @@
 
     .blockLink {
         padding-top: 10px;
-        font-size: 16px;
+        font-size: 10x;
         color: #10141a;
         width: 150px
     }
+}
+
+@media only screen and (max-width:376px) {
+  .greatContainer {
+      padding-top: 1%;
+      padding-left: 10
+  }
+
+  .Container {
+      color: #d4dada;
+      background-color: #7994b8;
+      height: 120px;
+      width: 98%;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center
+  }
+
+  .textContainer {
+      padding-left: 400px;
+      padding-right: 150px;
+      font-size: small;
+      width: 200px
+  }
+
+  .description {
+      font-size: xx-small;
+      width: 200px;
+      font-weight: 600
+  }
+
+  .imageFirst {
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 70px;
+      visibility: hidden
+  }
+
+  .ımage {
+      width: 120px;
+      height: 120px;
+      visibility: hidden
+  }
+
+  .stateActive,.stateBasic,.stateComing,.stateDeactive,.stateWait {
+      background-color: #13bb37;
+      font-size: 12px;
+      font-weight: 600;
+      width: 40px;
+      height: 16px;
+      border-radius: 10px;
+      padding-top: 1px;
+      padding-left: 8px;
+      color: #e4e7eb
+  }
+
+  .stateBasic,.stateComing,.stateDeactive,.stateWait {
+      background-color: #bb1313;
+      width: 60px;
+      border-radius: 6px
+  }
+
+  .stateBasic,.stateComing,.stateWait {
+      background-color: #f78f07;
+      width: 85px;
+      color: #fff
+  }
+
+  .stateBasic,.stateWait {
+      background-color: #0b677e;
+      width: 150px;
+      color: #e4e7eb
+  }
+
+  .stateWait {
+      background-color: #7e0b6b;
+      width: 60px
+  }
+
+  .blockLink {
+      padding-top: 10px;
+      font-size: 10x;
+      color: #10141a;
+      width: 150px
+  }
 }
