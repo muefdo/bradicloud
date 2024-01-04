@@ -1,4 +1,17 @@
 [
+
+      {
+        "headerName": "kalpizi.com",
+        "description": "Sevgiliye website hazırlayın. Sevgiliye özel website",
+        "imageSrc": "/run.png",
+        "themeColor": "#ff427b",
+        "paddingLeft": "50px",
+        "descriptionColor": "#c75228",
+        "headerColor": "black",
+        "infoLink": "https://www.kalpizi.com/",
+        "condition": 3
+     
+     },
     {
         "headerName": "Traino.pro",
         "description": "Fitness severler için kolay antrenman programlar ve Ünlü PT'lerden antrenman programları. ",
